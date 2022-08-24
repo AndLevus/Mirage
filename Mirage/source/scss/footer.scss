@@ -1,0 +1,181 @@
+.footer {
+  margin-top: 230px;
+  background: url("../img/footer-line.svg") no-repeat 100%;
+  background-size: cover;
+  @media screen and (max-width: $md-max) {
+    margin-top: 100px;
+    background-size: calc(100% - (100vw - 768px) / 100) ;
+  }
+  @media screen and (max-width: $sm-max) {
+    margin-top: 50px;
+    background-size: 130%;
+    background-position: center;
+  }
+  a {
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  }
+  .footer-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    @media screen and (max-width: $sm-max) {
+      align-items: flex-start;
+      justify-content: center;
+    }
+    .footer-data {
+      .logo {
+        margin-bottom: 40px;
+        @media screen and (max-width: $sm-max) {
+          margin-bottom: 20px;
+        }
+        a {
+          text-decoration: none;
+        }
+      }
+      ul {
+        font-size: 24px;
+        font-weight: 500;
+        color: $purple;
+        margin-bottom: 40px;
+        @media screen and (max-width: $md-max) {
+          font-size: 20px;
+          margin-bottom: 20px;
+        }
+        @media screen and (max-width: $sm-max) {
+          font-size: 18px;
+        }
+        @media screen and (max-width: $sm-max) {
+          font-size: 16px;
+        }
+        ~ a{
+          font-weight: 700;
+        }
+        li {
+          color: #919299;
+          font-size: 20px;
+          @media screen and (max-width: $md-max) {
+            font-size: 18px;
+          }
+      }
+      }
+      .icons {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin-top: 15px;
+        a {
+          img {
+            @media screen and (max-width: $sm-max) {
+              width: 30px;
+              height: 30px;
+            }
+          }
+          + a {
+            margin-left: 10px;
+          }
+        }
+      }
+    }
+    .footer-resouces {
+      ul {
+        font-size: 24px;
+        font-weight: 500;
+        color: $purple;
+        @media screen and (max-width: $md-max) {
+          font-size: 20px;
+        }
+        @media screen and (max-width: $sm-max) {
+          font-size: 18px;
+        }
+        li {
+          font-size: 20px;
+          color: #919299;
+          margin-top: 40px;
+          @media screen and (max-width: $md-max) {
+            font-size: 18px;
+            margin-top: 20px;
+          }
+          @media screen and (max-width: $sm-max) {
+            font-size: 16px;
+          }
+          + li {
+            margin-bottom: 25px;
+          }
+        }
+      }
+    }
+    .footer-about {
+      ul {
+        font-size: 24px;
+        font-weight: 500;
+        color: $purple;
+        @media screen and (max-width: $md-max) {
+          font-size: 20px;
+        }
+        @media screen and (max-width: $sm-max) {
+          font-size: 18px;
+        }
+        li {
+          font-size: 20px;
+          color: #919299;
+          margin-top: 40px;
+          @media screen and (max-width: $md-max) {
+            font-size: 18px;
+            margin-top: 20px;
+          }
+          @media screen and (max-width: $sm-max) {
+            font-size: 16px;
+          }
+          + li {
+            margin-bottom: 25px;
+          }
+    }
+      }
+    }
+    .footer-link {
+      ul {
+        font-size: 24px;
+        font-weight: 500;
+        color: $purple;
+        @media screen and (max-width: $md-max) {
+          font-size: 20px;
+        }
+        @media screen and (max-width: $sm-max) {
+          font-size: 18px;
+        }
+        li {
+          font-size: 20px;
+          color: #919299;
+          margin-top: 40px;
+          @media screen and (max-width: $md-max) {
+            font-size: 18px;
+            margin-top: 20px;
+          }
+          @media screen and (max-width: $sm-max) {
+            font-size: 16px;
+          }
+          + li {
+            margin-bottom: 25px;
+          }
+        }
+      }
+    }
+  }
+  .footer-bottom {
+    background-color: $pink;
+    color: white;
+    display: flex;
+    align-items: flex-start;
+    margin-top: 65px;
+    padding: 15px 0;
+    @media screen and (max-width: $md-max) {
+      margin-top: 20px;
+      padding: 10px 0;
+    }
+    @media screen and (max-width: $sm-max) {
+      margin-top: 5px;
+    }
+  }
